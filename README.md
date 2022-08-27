@@ -9,11 +9,11 @@ The aim of the challenge was to identify areas where landslides have occurred us
 
 ## Read and process the Landslide4Sense training images
 
-The [read_and_process_images.ipynb]() reads the 3799 downloaded Landslide4Sense training images and their corresponding labels, calculates indexes such as NDVI, NDMI... and outputs .npy files. The shell of this script have been borrowed by [IamTekson@GitHub]() and modified to fit my needs.
+The [read_and_process_images.ipynb](read_and_process_images.ipynb) reads the 3799 downloaded Landslide4Sense training images and their corresponding labels, calculates indexes such as NDVI, NDMI... and outputs .npy files. The shell of this script have been borrowed by [iamtekson@GitHub](https://github.com/iamtekson/landslide4sense-solution) and modified to fit my needs.
 
 ## Random Forest Classifier
 
-The [RF_classifier.ipynb]():
+The [RF_classifier.ipynb](RF_classifier.ipynb):
 * reads the .npy files, 
 * fits the model, 
 * evaluate feature importance,
